@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Javascript - J1 - TP1 feuille 1</title>
+    </head>
+    <body>
+        <fieldset style="width: 600px; margin:auto;">
+            <legend>Demande de crédit</legend>
+            <form method="GET" action="tp1-feuille2.html" >
+                <label for="fieldLastName">Nom : </label>
+                <input type="text" name="fieldLastName" id="fieldLastName" pattern="^[a-zA-z]+$" required /><span id="warning1"></span>
+                <br/> 
+
+                <label for="fieldFirstName">Prénom : </label>
+                <input type="text" name="fieldFirstName" id="fieldFirstName" pattern="^[a-zA-z]+$" required /><span id="warning2"></span>
+                <br/> 
+
+                <label for="fieldPhone">Téléphone : </label>
+                <input type="tel" name="fieldPhone" id="fieldPhone" pattern="^[0-9]{10}$" required /><span id="warning3"></span>
+                <br/> 
+
+                <label>Salaire : </label>
+                <input type="radio" name="radioSalary" id="radioSalaryless2000" value="less2000" required /><label for="radioSalaryless2000">inférieur à 2000 € mensuel</label>
+                <input type="radio" name="radioSalary" id="radioSalarymore2000" value="more2000" required /><label for="radioSalarymore2000">supérieur à 2000 € mensuel</label>
+                <br/>
+
+                <label>Motif Crédit : </label>
+                <input type="radio" name="radioboxCredit" id="radioCreditCar" value="Voiture" onchange="displayOther(event, false)" required /><label for="radioCreditCar">Voiture</label>
+                <input type="radio" name="radioboxCredit" id="radioCreditHome" value="Immobilier" onchange="displayOther(event, false)" required /><label for="radioCreditHome">Immobilier</label>
+                <input type="radio" name="radioboxCredit" id="radioCreditOther" value="other" onchange="displayOther(event, true)" required /><label id="labelRadioCreditOther" for="radioCreditOther">Autre</label>
+                <br/>
+
+                <label id ="labelTimeRepayment" for="timeRepayment">Durée de remboursement : </label>
+                <select name="timeRepayment" id="timeRepayment" onchange="displayOther(event, this.selectedIndex === 3)" required>
+                    <option value="3">3 ans</option>
+                    <option value="5">5 ans</option>
+                    <option value="10">10 ans</option>
+                    <option value="other">Autre</option>
+                </select>
+                <span id="inputTimeRepayment"></span>
+                <br />
+
+                <br />
+                <input type="submit" value="valider" />
+            </form>
+        </fieldset>
+
+        <script language="javascript" type="text/javascript" src="js/tp1-feuille1.js"></script>
+    </body>
+</html>

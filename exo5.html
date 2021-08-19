@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Javascipt - J1 - exo5</title>
+
+        <style>
+            body 
+            {
+                justify-content: center;
+                padding-top: 50px;
+            }
+
+            div
+            {
+                text-align: center;
+            }
+
+
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <form>
+                <label for="fieldName">Nom : </label>
+                <input type="text" id="fieldName" name="fieldName" pattern="^[A-Za-z]{1,}" required />
+                <br/>
+                <label for="fieldCIN">CIN :</label>
+                <input type="text" id="fieldCIN" name="fieldCIN" pattern="^[0-9]{8}" required />
+                <br />
+                <input type="submit" value="Valider" onclick="fonction1(event)"/>
+            </form>
+        </div>
+
+        <script language="javascript" type="text/javascript" src="js/scriptexo5.js"></script>
+    </body>
+</html>

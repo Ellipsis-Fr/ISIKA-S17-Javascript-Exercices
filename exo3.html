@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Javascript - J1 - Exo3</title>
+    </head>
+    <body>
+        <script language="javascript" type="text/javascript">
+            var x = "";
+            var y = "";
+
+            do {
+                x = prompt("veuillez entre une valeur pour x");
+            } while (isNaN((x = parseInt(x))));
+
+            if (x < 5) {
+                x += 5;
+            }
+
+            do {
+                y = prompt("veuillez entre une valeur pour y");
+            } while (isNaN((y = parseInt(y))));
+
+            if (y < 10) {
+                y += 10;
+            }
+
+            document.querySelector("body").textContent = "Resultat = " + x*y;
+        </script>
+    </body>
+</html>
