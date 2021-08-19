@@ -58,7 +58,7 @@ developper une fonction permettant d'attribuer des valeurs aléatoires aux diff�
 
 Exercice 8 :
 
-Même exercice que le 6 mais avec des boutons radio. Donc une seule valeur ne doit pouvoir être sélectionnée à la foix
+Même exercice que le 6 mais avec des boutons radio. Donc une seule valeur ne doit pouvoir être sélectionnée à la fois
 
 
 ==============================
