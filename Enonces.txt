@@ -1,0 +1,73 @@
+Exercice 2 :
+
+Lancer 2 boites de dialogues demandant successivement 2 valeurs et afficher leur somme dans une alerte
+
+=================================
+
+Exercice 3 :
+
+1/ Collecter auprès des utilisateurs les valeurs de x et y.
+	Considérer les règles suivantes:
+	Si x>5 alors déduire 5 de x sinon ajouter 5 à x.
+	Si y>10 alors déduire 10 de y sinon ajouter 10 à y.
+
+2/ Afficher le résultat x+y
+
+3/S'assurer que la valeur saisie pour chacune des 2 entrées est bien un nombre entier
+
+==================================
+
+Exercice 4 : 
+
+Développer en JavaScript un script qui permet d’afficher tous les entiers compris entre 1 et 1000 qui sont divisibles par 23.
+
+==================================
+
+Exercice 5 :
+
+1/ Créer un formulaire comprenant 2 zones de saisie et un bouton de validation, 
+La première zone de saisie sert à entrer un nom, la seconde une suite de chiffre
+
+2/ Ecrire une fonction qui permet de vérifier les champs nom et CIN ne sont pas vide.
+
+3/ Ecrire une fonction qui permet de vérifier que le champs CIN est numérique et possède une longueur  égale à 8 caractères.
+
+================================
+
+Exercice 6 :
+
+Créer un formulaire comprenant 2 cases à cocher et un bouton de validation, suite à la validation du formulaire afficher dans une alerte les éléments sélectionnés
+
+================================
+
+Exercice 7 :
+
+Developper un jeu de case à cocher :
+
+1/ Créer un formulaire comprenant 10 cases à cocher et un bouton de validation
+2/ Donner des valeurs numérique aux différentes cases à cocher
+3/ lorsque le formulaire est validé, 
+	a) vérifier que 3 cases ont été cochées, si ce n'est pas le cas envoyer une alert indiquant le nombre de case à cocher
+	b) faire la somme des valeurs des cases cochées, si la somme est supérieur à 15 afficher une alerte indiquant la victoire, sinon une alerte avec un message indiquant que c'est perdu
+
+Bonus :
+developper une fonction permettant d'attribuer des valeurs aléatoires aux différentes cases à cocher pour que chaque round soit différent
+
+
+===============================
+
+Exercice 8 :
+
+Même exercice que le 6 mais avec des boutons radio. Donc une seule valeur ne doit pouvoir être sélectionnée à la foix
+
+
+==============================
+
+TP1 : 
+
+Reproduire vue pdf
+
+Bonus :
+Créer un formulaire de method GET et traiter ces données pour les afficher dans la seconde page
+
+
